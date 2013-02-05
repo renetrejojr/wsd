@@ -6,6 +6,11 @@ body{
 	height: 768px;
 }
 
+#logo{
+	width: 100px;
+	height: 100px;
+}
+
 #footer{
 	text-align: center;
 }
