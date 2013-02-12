@@ -119,38 +119,61 @@ form{
 	
 }
 
-.gallery  {
-  margin:2px;
-  height:auto;
-  width:auto;
-  float:left;
+
+#main{
+	width: 964px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+#gallery{
+	width: 100%;
+	height: auto; 
+	margin:0 auto;
+	text-align: center;
+	background: #333;
+	
+}
+
+.image  {
   text-align:center;
+  display:inline-block;
+  margin: 50px 50px 100px 50px;
+  
   }
   
-.gallery img{
-  display:inline;
+.image img{
   margin:3px;
   border:1px solid #ffffff;
+  margin: 0 auto;
   }
   
-.gallery a:hover img{
+.image a:hover img{
   border:1px solid #000;
   }
   
-.desc{
-  text-align:center;
-  font-weight:normal;
-  width:120px;
-  margin:2px;
-  color: #FFF;
-  }
   
+#band{
+	width: 500px;
+	float: right;
+	margin: 0 auto;
+	clear: both;
+	top: 324px;
+}
+
+#music{
+	clear: both;
+}
+
 #footer{
 	text-align: center;
+	clear: both;
 }
 
 h2{
 	color:#FFF;
+	font-family: 'Julius Sans One', sans-serif;
+	text-align: center;
 }
 
 h3{
