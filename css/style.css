@@ -81,7 +81,18 @@ nav ul li a:hover {
 }
 
 .button_example{
-border:1px solid #c3b980; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;font-size:18px;font-family:helvetica, sans-serif; padding: 10px 10px 10px 10px; text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; text-align: center; color: #FFFFFF; background-color: #d5cea6;
+border:1px solid #c3b980;
+ -webkit-border-radius: 3px; 
+ -moz-border-radius: 3px;
+ border-radius: 3px;
+ font-size:18px;
+ font-family:helvetica, sans-serif; 
+ padding: 10px 10px 10px 10px; 
+ text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+ font-weight:bold; 
+ text-align: center; 
+ color: #FFFFFF; 
+ background-color: #d5cea6;
  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d5cea6), color-stop(100%, #b7ad70));
  background-image: -webkit-linear-gradient(top, #d5cea6, #b7ad70);
  background-image: -moz-linear-gradient(top, #d5cea6, #b7ad70);
@@ -91,7 +102,8 @@ border:1px solid #c3b980; -webkit-border-radius: 3px; -moz-border-radius: 3px;bo
 }
 
 .button_example:hover{
- border:1px solid #b4a861; background-color: #c5bb83;
+ border:1px solid #b4a861; 
+ background-color: #c5bb83;
  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c5bb83), color-stop(100%, #a29752));
  background-image: -webkit-linear-gradient(top, #c5bb83, #a29752);
  background-image: -moz-linear-gradient(top, #c5bb83, #a29752);
@@ -107,7 +119,32 @@ form{
 	
 }
 
-
+.gallery  {
+  margin:2px;
+  border:1px solid #0000ff;
+  height:auto;
+  width:auto;
+  float:left;
+  text-align:center;
+  }
+  
+.gallery img{
+  display:inline;
+  margin:3px;
+  border:1px solid #ffffff;
+  }
+  
+.gallery a:hover img{
+  border:1px solid #0000ff;
+  }
+  
+  .desc{
+  text-align:center;
+  font-weight:normal;
+  width:120px;
+  margin:2px;
+  }
+  
 #footer{
 	text-align: center;
 }
@@ -126,5 +163,9 @@ h3{
 .define{
 	color:#FFF;
 	text-align: center;
+}
+
+p{
+	color: #FFF;
 }
 
