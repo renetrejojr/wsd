@@ -121,7 +121,6 @@ form{
 
 .gallery  {
   margin:2px;
-  border:1px solid #0000ff;
   height:auto;
   width:auto;
   float:left;
@@ -135,14 +134,15 @@ form{
   }
   
 .gallery a:hover img{
-  border:1px solid #0000ff;
+  border:1px solid #000;
   }
   
-  .desc{
+.desc{
   text-align:center;
   font-weight:normal;
   width:120px;
   margin:2px;
+  color: #FFF;
   }
   
 #footer{
