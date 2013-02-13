@@ -144,6 +144,9 @@ form{
   text-align:center;
   display:inline-block;
   margin: 50px 50px 100px 50px;
+  color: #FFF;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 11px;
   
   }
   
@@ -156,7 +159,7 @@ form{
 .image a:hover img{
   border:1px solid #000;
   }
-  
+
   
 #band{
 	width: 500px;
