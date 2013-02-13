@@ -128,12 +128,17 @@ form{
 
 #gallery{
 	width: 100%;
-	height: auto; 
+	height: 300px; 
 	margin:0 auto;
 	text-align: center;
 	background: #333;
 	
 }
+
+#gallery h2{
+	padding-top: 25px;
+	font-size: 35px;
+	text-shadow: 4px 3px 0px #000, 9px 8px 0px rgba(0,0,0,0.15)}
 
 .image  {
   text-align:center;
