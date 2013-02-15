@@ -5,6 +5,8 @@ body{
 #container{
 	width: 1024px;
 	margin: 0 auto;
+	background: rgba(25,25,25,0.5);
+	padding: 20px;
 }
 
 #logo{
@@ -158,11 +160,19 @@ form{
 .image a:hover img{
   border:1px solid #000;
   }
+  
+.members{
+	float: left;
+	width: 300px;
+}
 
+.dates{
+	float: right;
+	width: 300px;
+}
   
 #band{
-	width: 500px;
-	float: left;
+	width: 800px;
 	margin: 0 auto;
 	clear: both;
 	top: 324px;
@@ -244,6 +254,7 @@ footer{
 .footername{
 	text-align: center;
 	padding-top: 6px;
+	font-family: 'Julius Sans One', sans-serif;
 	
 }
 
