@@ -190,6 +190,13 @@ h3{
 	text-align: right;
 }
 
+h4{
+	font-family: 'Julius Sans One', sans-serif;
+	color: #FFF;
+	font-size: 22px;
+	text-align: center;
+}
+
 .define{
 	color:#FFF;
 	text-align: center;
