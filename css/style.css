@@ -162,7 +162,7 @@ form{
   
 #band{
 	width: 500px;
-	float: right;
+	float: left;
 	margin: 0 auto;
 	clear: both;
 	top: 324px;
@@ -197,6 +197,11 @@ h4{
 	text-align: center;
 }
 
+ul{
+	list-style: circle;
+	color: #FFF;
+}
+
 .define{
 	color:#FFF;
 	text-align: center;
@@ -207,5 +212,17 @@ p{
 }
 
 .footername{
+	text-align: center;
+}
+
+aside{
+	-moz-column-count:3; /* Firefox */
+	-webkit-column-count:3; /* Safari and Chrome */
+	column-count:3;
+}
+
+p .strong .em{
+	text-align: center;
+}#container #albums aside p strong {
 	text-align: center;
 }
