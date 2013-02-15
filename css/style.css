@@ -215,14 +215,15 @@ p{
 	text-align: center;
 }
 
-aside{
-	-moz-column-count:3; /* Firefox */
-	-webkit-column-count:3; /* Safari and Chrome */
-	column-count:3;
+/*aside{
+	-moz-column-count:3;
+	-webkit-column-count:3;
+	column-count:3;}*/
+	
+#container #albums aside p strong {
+	text-align: center;
 }
 
-p .strong .em{
-	text-align: center;
-}#container #albums aside p strong {
-	text-align: center;
+.tracks{
+	list-style-type: none;
 }
