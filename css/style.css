@@ -1,279 +1,269 @@
-body{
-	background: url(../images/dark_wall.png);
+body {
+    background: url(../images/dark_wall.png);
 }
 
-#container{
-	width: 1024px;
-	margin: 0 auto;
-	background: rgba(25,25,25,0.5);
-	padding: 20px;
-	border: solid thin;
+#container {
+    width: 1024px;
+    margin: 0 auto;
+    background: rgba(25,25,25,0.5);
+    padding: 20px;
+    border: solid thin;
 }
 
-#logo{
-	width: 50px;
-	height: 50px;
-	float: left;
-	padding: 5px;
-	clear: both;
-	
+#logo {
+    width: 50px;
+    height: 50px;
+    float: left;
+    padding: 5px;
+    clear: both;
 }
 
-#logo1{
-	width: 50px;
-	height: 50px;
-	float: right;
-	padding: 5px;
-	clear: both;
-	margin: 35px 0px -45px 0px;
-	
+#logo1 {
+    width: 50px;
+    height: 50px;
+    float: right;
+    padding: 5px;
+    clear: both;
+    margin: 35px 0 -45px;
 }
 
 /* START NAV MENU */
 nav {
-  background-color:#333;
-  height: 40px;
-  float: right;
-  width: 964px;
-  margin-top: 10px;
-  
+    background-color: #333;
+    height: 40px;
+    float: right;
+    width: 964px;
+    margin-top: 10px;
 }
- 
- nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none; 
-  line-height: 30px; 
-  float: right;
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 30px;
+    float: right;
 }
- 
+
 nav ul li {
-  display:inline-block;
- }
- 
-nav li ul { 
-  display: none;
+    display: inline-block;
 }
- 
+
+nav li ul {
+    display: none;
+}
+
 nav ul li a {
-  display: block;
-  text-decoration: none;
-  padding: 5px 15px 3px 15px;
-  background: #333;
-  color: #ffffff;  
-  margin-left: 1px;
-  white-space: nowrap;
-  height: 32px; 
-  width: 90px;
-  text-align: center; 
-  font-family: 'Julius Sans One', sans-serif;
-}
- 
-nav ul li a:hover { 
-  background:#666; 
+    display: block;
+    text-decoration: none;
+    padding: 5px 15px 3px;
+    background: #333;
+    color: #fff;
+    margin-left: 1px;
+    white-space: nowrap;
+    height: 32px;
+    width: 90px;
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
 }
 
-#info{
-	float: right;
-	width: 555px;
-	margin: 0px 65px 0px 0px;
-}
- 
-#calltoaction{
-	background-color: #000000;
-	width: 100%;
-	height: 550px;
-	clear: both;
+nav ul li a:hover {
+    background: #666;
 }
 
-#calltoaction img{
-	position: relative;
-	top: 40px;
-	margin: 25px;
+#info {
+    float: right;
+    width: 555px;
+    margin: 0 65px 0 0;
 }
 
-.button_example{
-border:1px solid #c3b980;
- -webkit-border-radius: 3px; 
- -moz-border-radius: 3px;
- border-radius: 3px;
- font-size:18px;
- font-family:helvetica, sans-serif; 
- padding: 10px 10px 10px 10px; 
- text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
- font-weight:bold; 
- text-align: center; 
- color: #FFFFFF; 
- background-color: #d5cea6;
- background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d5cea6), color-stop(100%, #b7ad70));
- background-image: -webkit-linear-gradient(top, #d5cea6, #b7ad70);
- background-image: -moz-linear-gradient(top, #d5cea6, #b7ad70);
- background-image: -ms-linear-gradient(top, #d5cea6, #b7ad70);
- background-image: -o-linear-gradient(top, #d5cea6, #b7ad70);
- background-image: linear-gradient(top, #d5cea6, #b7ad70);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#d5cea6, endColorstr=#b7ad70);
+#calltoaction {
+    background-color: #000;
+    width: 100%;
+    height: 550px;
+    clear: both;
 }
 
-.button_example:hover{
- border:1px solid #b4a861; 
- background-color: #c5bb83;
- background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c5bb83), color-stop(100%, #a29752));
- background-image: -webkit-linear-gradient(top, #c5bb83, #a29752);
- background-image: -moz-linear-gradient(top, #c5bb83, #a29752);
- background-image: -ms-linear-gradient(top, #c5bb83, #a29752);
- background-image: -o-linear-gradient(top, #c5bb83, #a29752);
- background-image: linear-gradient(top, #c5bb83, #a29752);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#c5bb83, endColorstr=#a29752);
+#calltoaction img {
+    position: relative;
+    top: 40px;
+    margin: 25px;
 }
 
-form{
-	position: relative;
-	top: 55px;
-	left: 100px;
-	
+.button_example {
+    border: 1px solid #c3b980;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 18px;
+    font-family: helvetica, sans-serif;
+    padding: 10px;
+    text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+    font-weight: 700;
+    text-align: center;
+    color: #FFF;
+    background-color: #d5cea6;
+    background-image: 0 color-stop(100%,#b7ad70));
+    background-image: 0;
+    background-image: 0;
+    background-image: 0;
+    background-image: 0;
+    background-image: linear-gradient(top,#d5cea6,#b7ad70);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#d5cea6,endColorstr=#b7ad70);
 }
 
-
-#main{
-	width: 964px;
-	height: 600px;
-	margin: 0 auto;
+.button_example:hover {
+    border: 1px solid #b4a861;
+    background-color: #c5bb83;
+    background-image: 0 color-stop(100%,#a29752));
+    background-image: 0;
+    background-image: 0;
+    background-image: 0;
+    background-image: 0;
+    background-image: linear-gradient(top,#c5bb83,#a29752);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#c5bb83,endColorstr=#a29752);
 }
 
-#gallery{
-	width: 100%;
-	height: 300px; 
-	margin:0 auto;
-	text-align: center;
-	
+form {
+    position: relative;
+    top: 55px;
+    left: 100px;
 }
 
-#gallery h2{
-	padding-top: 25px;
-	font-size: 35px;
-	text-shadow: 4px 3px 0px #000, 9px 8px 0px rgba(0,0,0,0.25)}
-
-.image  {
-  text-align:center;
-  display:inline-block;
-  margin: 50px 50px 100px 50px;
-  color: #FFF;
-  font-family: 'Julius Sans One', sans-serif;
-  font-size: 11px;
-  
-  }
-  
-.image img{
-  margin:3px;
-  border:1px solid #ffffff;
-  margin: 0 auto;
-  }
-  
-.image a:hover img{
-  border:1px solid #000;
-  }
-  
-.members{
-	float: left;
-	width: 300px;
+#main {
+    width: 964px;
+    height: 600px;
+    margin: 0 auto;
 }
 
-.dates{
-	float: right;
-	width: 300px;
-}
-  
-#band{
-	width: 800px;
-	margin: 0 auto;
-	clear: both;
-	top: 324px;
+#gallery {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
 }
 
-#music{
-	clear: both;
+#gallery h2 {
+    padding-top: 25px;
+    font-size: 35px;
+    text-shadow: 4px 3px 0 #000, 9px 8px 0 rgba(0,0,0,0.25);
 }
 
-
-h2{
-	color:#FFF;
-	font-family: 'Julius Sans One', sans-serif;
-	text-align: center;
+.image {
+    text-align: center;
+    display: inline-block;
+    margin: 50px 50px 100px;
+    color: #FFF;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 11px;
 }
 
-h3{
-	font-family: 'Julius Sans One', sans-serif;
-	color: #FFF;
-	font-size: 46px;
-	text-align: right;
+.image img {
+    margin: 3px;
+    border: 1px solid #fff;
+    margin: 0 auto;
 }
 
-h4{
-	font-family: 'Julius Sans One', sans-serif;
-	color: #FFF;
-	font-size: 22px;
-	text-align: center;
+.image a:hover img {
+    border: 1px solid #000;
 }
 
-ul{
-	list-style: circle;
-	color: #FFF;
+.members {
+    float: left;
+    width: 300px;
 }
 
-.define{
-	color:#FFF;
-	text-align: center;
+.dates {
+    float: right;
+    width: 300px;
 }
 
-p{
-	color: #FFF;
-	text-align: justify;
+#band {
+    width: 800px;
+    margin: 0 auto;
+    clear: both;
+    top: 324px;
 }
 
-.center{
-	text-align: center;
+#music {
+    clear: both;
 }
-	
+
+h2 {
+    color: #FFF;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Julius Sans One', sans-serif;
+    color: #FFF;
+    font-size: 46px;
+    text-align: right;
+}
+
+h4 {
+    font-family: 'Julius Sans One', sans-serif;
+    color: #FFF;
+    font-size: 22px;
+    text-align: center;
+}
+
+ul {
+    list-style: circle;
+    color: #FFF;
+}
+
+.define {
+    color: #FFF;
+    text-align: center;
+}
+
+p {
+    color: #FFF;
+    text-align: justify;
+}
+
+.center {
+    text-align: center;
+}
+
 #container #albums aside p strong {
-	text-align: center;
+    text-align: center;
 }
 
-.tracks{
-	list-style-type: none;
+.tracks {
+    list-style-type: none;
 }
 
-.left{
-	float: right;
-	width: 330px;
-	padding: 0 0 10px 0;
+.left {
+    float: right;
+    width: 330px;
+    padding: 0 0 10px;
 }
 
-.middle{
-	width: 330px;
-	
+.middle {
+    width: 330px;
 }
 
-.right{
-	float: right;
-	width: 330px;
+.right {
+    float: right;
+    width: 330px;
 }
 
-footer{
-	text-align: center;
-	background-color:#333;
-	clear: both;
-	height: 30px;
-	width: 964px;
-  	margin-top: 10px;
-	
-	
+footer {
+    text-align: center;
+    background-color: #333;
+    clear: both;
+    height: 30px;
+    width: 964px;
+    margin-top: 10px;
 }
 
-.footername{
-	text-align: center;
-	padding-top: 6px;
-	font-family: 'Julius Sans One', sans-serif;
-	
+.footername {
+    text-align: center;
+    padding-top: 6px;
+    font-family: 'Julius Sans One', sans-serif;
 }
 
-.align{
-	text-align: center;
-}
+.align {
+    text-align: center;
