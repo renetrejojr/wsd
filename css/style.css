@@ -1,46 +1,53 @@
 body {
     background: url(../images/dark_wall.png);
+	max-width: 100%;
+	margin: 0 auto;
 }
 
 #container {
-    width: 1024px;
+    width: 100%; /*1024px*/
     margin: 0 auto;
     background: rgba(25,25,25,0.5);
-    padding: 20px;
+    padding: 1.953125%; /*20px*/
     border: solid thin;
 }
 
 #logo {
-    width: 50px;
-    height: 50px;
+    width: 4.8828125%;
+    height: 4.8828125%;
     float: left;
-    padding: 5px;
+    padding: .48828125%;
     clear: both;
 }
 
+#logo img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
 #logo1 {
-    width: 50px;
-    height: 50px;
+    width: 4.8828125%;
+    height: 4.8828125%;
     float: right;
-    padding: 5px;
+    padding: .48828125%;
     clear: both;
-    margin: 35px 0 -45px;
+    margin: 3.41796875% 0% -4.39453125%;
 }
 
 /* START NAV MENU */
 nav {
     background-color: #333;
-    height: 40px;
+    height: 3.90625%;
     float: right;
-    width: 964px;
-    margin-top: 10px;
+    width: 94.140625%; /*964px*/
+    margin-top: .9765625%; /*10px*/
 }
 
 nav ul {
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     list-style: none;
-    line-height: 30px;
+    line-height: 195%;
     float: right;
 }
 
@@ -55,13 +62,13 @@ nav li ul {
 nav ul li a {
     display: block;
     text-decoration: none;
-    padding: 5px 15px 3px;
+    padding: .51867219917% 1.55601659751% .311203319502%;
     background: #333;
     color: #fff;
-    margin-left: 1px;
+    margin-left: .103734439834%;
     white-space: nowrap;
-    height: 32px;
-    width: 90px;
+    height: 2em;
+    width: 5.625em;
     text-align: center;
     font-family: 'Julius Sans One', sans-serif;
 }
@@ -72,32 +79,31 @@ nav ul li a:hover {
 
 #info {
     float: right;
-    width: 555px;
+    width: 57.57%;
     margin: 0 65px 0 0;
 }
 
 #calltoaction {
     background-color: #000;
     width: 100%;
-    height: 550px;
+    height: 31em;
     clear: both;
 }
 
 #calltoaction img {
-    position: relative;
-    top: 40px;
-    margin: 25px;
+    float: left;
+    margin: 2.441%;
 }
 
 .button_example {
-    border: 1px solid #c3b980;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    font-size: 18px;
+    border: 0.063em solid #c3b980;
+    -webkit-border-radius: 0.188em;
+    -moz-border-radius: 0.188em;
+    border-radius: 0.188em;
+    font-size: 1.125em;
     font-family: helvetica, sans-serif;
-    padding: 10px;
-    text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+    padding: 0.625em;
+    text-shadow: -0.063em 0.063em 0 rgba(0,0,0,0.3);
     font-weight: 700;
     text-align: center;
     color: #FFF;
@@ -124,14 +130,13 @@ nav ul li a:hover {
 }
 
 form {
-    position: relative;
-    top: 55px;
-    left: 100px;
+    float: left;
+	margin: 2.5em 0.938em 1.563em 5.938em;
 }
 
 #main {
-    width: 964px;
-    height: 600px;
+    width: 94.140625%;
+    height: 37.500em;
     margin: 0 auto;
 }
 
@@ -143,45 +148,44 @@ form {
 }
 
 #gallery h2 {
-    padding-top: 25px;
-    font-size: 35px;
-    text-shadow: 4px 3px 0 #000, 9px 8px 0 rgba(0,0,0,0.25);
+    padding-top: 1.563em;
+    font-size: 2.188em;
+    text-shadow: 0.250em 0.188em 0 #000, 0.563em 0.5em 0 rgba(0,0,0,0.25);
 }
 
 .image {
     text-align: center;
     display: inline-block;
-    margin: 50px 50px 100px;
+    margin: 3.125em 3.125em 6.250em;
     color: #FFF;
     font-family: 'Julius Sans One', sans-serif;
-    font-size: 11px;
+    font-size: 0.688em;
 }
 
 .image img {
-    margin: 3px;
-    border: 1px solid #fff;
+    margin: 0.188em;
+    border: 0.063em solid #fff;
     margin: 0 auto;
 }
 
 .image a:hover img {
-    border: 1px solid #000;
+    border: 0.063em solid #000;
 }
 
 .members {
     float: left;
-    width: 300px;
+    width: 29.296875%;
 }
 
 .dates {
     float: right;
-    width: 300px;
+    width: 29.296875%;
 }
 
 #band {
-    width: 800px;
+    width: 78.125%;
     margin: 0 auto;
     clear: both;
-    top: 324px;
 }
 
 #music {
@@ -197,14 +201,14 @@ h2 {
 h3 {
     font-family: 'Julius Sans One', sans-serif;
     color: #FFF;
-    font-size: 46px;
+    font-size: 2.875em;
     text-align: right;
 }
 
 h4 {
     font-family: 'Julius Sans One', sans-serif;
     color: #FFF;
-    font-size: 22px;
+    font-size: 1.375em;
     text-align: center;
 }
 
@@ -237,7 +241,7 @@ p {
 
 .left {
     float: right;
-    width: 330px;
+    width: 32.2265625%;
     padding: 0 0 10px;
 }
 
