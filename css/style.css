@@ -212,6 +212,7 @@ form {
     clear: both;
 	width: 93.75%;
 	margin: 0 auto;
+	padding-top: 2em;
 }
 
 h2 {
@@ -255,6 +256,16 @@ ul {
 p {
     color: #FFF;
     text-align: justify;
+}
+
+.contact{
+	color: #FFF;
+	line-height: .5em;
+	font-size: .75em;
+}
+
+form{
+	margin-left: 25%;
 }
 
 .center {
@@ -305,6 +316,9 @@ footer {
 	width: 93.75%;
 	margin: 0 auto;
 }
+
+form{
+	width: 50%;}
 	
 	@media screen and (min-width: 768px) and (max-width: 959px){}
 	
