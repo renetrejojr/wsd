@@ -299,7 +299,7 @@ footer {
     background-color: #333;
     clear: both;
     height: 1.875em;
-    width: 90.75%;
+    width: 940px;
     margin: 0 36px 36px;
 }
 
@@ -320,9 +320,20 @@ footer {
 form{
 	width: 50%;}
 	
+table{
+	width: 100%;}
+	
 	@media screen and (min-width: 768px) and (max-width: 959px){}
 	
-	
+			
+		.left {
+    width: 93.75%;
+    padding: 0 0 0.625em;
+	-moz-column-count:1; /* Firefox */
+	-webkit-column-count:1; /* Safari and Chrome */
+	column-count:1;
+
+}
 	
 	
 	
