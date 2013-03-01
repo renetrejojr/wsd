@@ -234,6 +234,14 @@ h4 {
     text-align: center;
 }
 
+h5{
+	text-align: center;
+	color: #FFF;
+	font-size: 1em;
+}
+		
+	
+
 ul {
     list-style: circle;
     color: #FFF;
@@ -468,6 +476,8 @@ h3{
 	text-align: center;
 
 	}
+	
+
 		
 		#gallery {
     width: 95%;
